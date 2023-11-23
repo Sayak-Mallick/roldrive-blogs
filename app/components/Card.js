@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Card = ({ title, subtitle,thumbnail, btnlabel, slug }) => {
   return (
     <div className='text-center'>
-      <Link href={`/product/${slug}`}>
+      <Link href={`/products/${slug}`}>
         <Image
           className='block mx-auto mb-4'
           width={600}
